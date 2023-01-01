@@ -1,4 +1,4 @@
-from PIL import Image, ImageOps
+from PIL import Image
 rgb_values = {(0, 0, 0):'#',(1, 0, 0):'@',
 (0, 1, 0):'%',(0, 0, 1):'&',(1, 1, 0):'$',(1, 0, 1):'+',(0, 1, 1):'4',(1, 1, 1):' '}
 while True:
