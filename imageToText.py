@@ -17,12 +17,6 @@ while True:
         print("Please enter a valid number!")
 while True:
     try:
-        directory=input("Output file name: ")
-        break
-    except:
-        print("An error occured please try again!")
-while True:
-    try:
         f = open(input("Output file name: ") + ".txt", "w")
         break
     except:
