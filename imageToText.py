@@ -21,7 +21,7 @@ while True:
         break
     except:
         print("An error occured please try again")
-height = int(img.size[1]*percent)
+height = int(img.size[1]*percent/2)
 img = img.resize((width, height), Image.Resampling.LANCZOS)
 pix = img.load()
 f = open(directory + ".txt", "w")
